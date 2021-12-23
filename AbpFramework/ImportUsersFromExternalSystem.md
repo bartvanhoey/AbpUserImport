@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this article, I will show you a way to import users from an external system into the users' table of an ABP Framework application. Watch out, the code in this article is **not production-ready**, as I wanted to keep the example simple to understand.
+In this article, I will explain you how you can import users from an external system into the users' table of an ABP Framework application. Watch out, the code in this article is **not production-ready**, as I wanted to keep the example simple to understand.
 
 The sample application has been developed with **Blazor** as UI framework and **SQL Server** as database provider.
 
