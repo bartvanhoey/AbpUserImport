@@ -197,7 +197,7 @@ Navigate to the **ImportUser endpoint** in the Swagger page.
 
 Click first on the **Try it out** button and then on the **Execute** button. The **CreateManyAsync** method in the **ImportUserAppService** will be hit and 1 user will be added to the **AbpUsers** table in the database.
 
-![ImportUser endpoint](/Images/Swagger_ImportUser_Endpoint.jpg)
+![ImportUser endpoint](../Images/Swagger_ImportUser_Endpoint.jpg)
 
 Et voilà! You can now **import users from an external system** into the **AbpUsers** table of the ABP Framework.
 

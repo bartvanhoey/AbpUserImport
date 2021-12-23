@@ -1,5 +1,4 @@
 ﻿using System;
-using Microsoft.EntityFrameworkCore;
 using Volo.Abp.Identity;
 using Volo.Abp.ObjectExtending;
 using Volo.Abp.Threading;
@@ -49,9 +48,9 @@ namespace AbpUserImport.EntityFrameworkCore
                        propertyBuilder.HasMaxLength(36);
                    }
                );
+
+
             });
         }
-
-    
     }
 }

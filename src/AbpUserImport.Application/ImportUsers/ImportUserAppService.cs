@@ -25,17 +25,12 @@ namespace AbpUserImport.Application.ImportUsers
             using (CurrentTenant.Change(input.TenantId))
             {
                 SetIdentityOptions();
-
                 foreach (var item in input.Items)
                 {
                     await InsertImportUserInDatabaseAsync(item, input.TenantId);
                 }
             }
-
-
-
         }
-
         private void SetIdentityOptions()
         {
             _identityUserManager.Options.User.RequireUniqueEmail = true;
